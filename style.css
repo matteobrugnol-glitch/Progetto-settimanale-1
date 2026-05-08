@@ -24,7 +24,9 @@ body {
 /* Header */
 #site-header {
 	background-color: hsl(220, 40%, 20%);
-	background-image: url('img/header-bg.jpg');
+	background-image: 
+	linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+	url('img/header-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	color: #ffffff;
@@ -42,7 +44,6 @@ body {
 }
 
 .tagline {
-	color: rgb(244, 74, 74);
 	font-style: italic;
 }
 
