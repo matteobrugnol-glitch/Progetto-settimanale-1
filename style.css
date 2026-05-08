@@ -146,20 +146,29 @@ h3 {
 }
 
 /* Lista competenze a righe alternate */
-.skill-list {
-	line-height: 2.2;
+
+#skill-table {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border-collapse: collapse;
 }
 
-.skill-list li:nth-child(odd) {
-	background-color: #f5f7fb;
+#skill-table tbody tr td:first-child {
+	text-align: center;
 }
 
-.skill-list li:nth-child(even) {
-	background-color: #ffffff;
+#skill-table .skill-level {
+	background-color: rgba(64,64,64,0.25);
+	border-radius: 25px;
+	width: 100%;
+	height: 16px;
+	display:block;
+	overflow: hidden;
 }
-
-.skill-list li:first-child {
-	font-weight: bold;
+#skill-table .skill-level .skill-bar {
+	background-color: hsl(45, 90%, 50%);
+	height: 100%;
 }
 
 /* Progetti alternati + tag NEW sul primo */
