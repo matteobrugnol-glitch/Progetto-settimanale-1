@@ -118,10 +118,12 @@ h3 {
 	border-radius: 50%;
 	float: left;
 	margin: 0 24px 12px 0;
+	object-fit: cover;
 }
 
 #chi-sono {
 	text-align: justify;
+	margin-top: -85px;
 }
 
 #chi-sono p:first-of-type {
